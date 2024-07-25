@@ -1,0 +1,12 @@
+[package]
+edition    = "2021"
+license    = "MIT"
+name       = "swc_ecma_preset_env_error"
+repository = "https://github.com/web-infra-dev/rspack"
+version    = "0.1.0"
+
+[dependencies]
+swc_core = { version = "0.99.4", features = [
+  "ecma_preset_env"
+] }
+anyhow = { version = "1.0.83" }
